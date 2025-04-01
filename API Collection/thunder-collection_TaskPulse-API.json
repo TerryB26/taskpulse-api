@@ -1,0 +1,223 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "TaskPulse-API",
+    "collectionId": "464e5579-c156-4177-a872-cf936f8d0377",
+    "dateExported": "2025-04-01T09:03:24.164Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a368b417-f9bc-48be-be2f-882a1c9c9d3d",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Sign Up",
+            "url": "http://localhost:2663/auth/signup",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-04-01T08:32:50.729Z",
+            "modified": "2025-04-01T08:32:50.729Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"Terry@Mail.com\",\n  \"password\": \"1234\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1ddba1fe-b935-43ec-99c8-8ffcae2d595d",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:2663/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-04-01T08:34:35.566Z",
+            "modified": "2025-04-01T08:34:35.566Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"Terry@Mail.com\",\n  \"password\": \"1234\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "9ae2e0da-78b7-4407-b0c9-575ca245ce23",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Creating Task",
+            "url": "http://localhost:2663/tasks",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-04-01T08:37:11.140Z",
+            "modified": "2025-04-01T08:37:11.140Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"title\": \"Debug Code\",\r\n  \"description\": \"Debug the index file for bugs\",\r\n  \"dueDate\": \"2025-04-08T12:00:00Z\",\r\n  \"priority\": \"medium\"\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc0MzQ5NjM4NSwiZXhwIjoxNzQzNDk5OTg1fQ.n095zt-tA8rOPlR3MGd-9Bep9Z8Padw7C_lLYF7BlMU"
+            }
+        },
+        {
+            "_id": "b5f4a599-bf21-47f0-9b6e-72acb6df47df",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "View assigned tasks",
+            "url": "http://localhost:2663/tasks",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-04-01T08:39:06.380Z",
+            "modified": "2025-04-01T08:39:06.380Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"title\": \"Debug Code\",\r\n  \"description\": \"Debug the index file for bugs\",\r\n  \"dueDate\": \"2025-04-08T12:00:00Z\",\r\n  \"priority\": \"medium\"\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc0MzQ5NjM4NSwiZXhwIjoxNzQzNDk5OTg1fQ.n095zt-tA8rOPlR3MGd-9Bep9Z8Padw7C_lLYF7BlMU"
+            }
+        },
+        {
+            "_id": "079ea664-7a7e-47fe-8fea-7c21485ce07a",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Add Tags to a Task",
+            "url": "http://localhost:2663/tasks/4/tags",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2025-04-01T08:41:42.386Z",
+            "modified": "2025-04-01T08:41:42.386Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"tags\": [\"sprint\", \"minor change\"]\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc0MzQ5NjM4NSwiZXhwIjoxNzQzNDk5OTg1fQ.n095zt-tA8rOPlR3MGd-9Bep9Z8Padw7C_lLYF7BlMU"
+            }
+        },
+        {
+            "_id": "7e0894b2-f09f-413f-8624-383b58c3e329",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Filter Tasks",
+            "url": "http://localhost:2663/tasks?status=open",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-04-01T08:43:59.364Z",
+            "modified": "2025-04-01T08:43:59.364Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "status",
+                    "value": "open",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"tags\": [\"sprint\", \"minor change\"]\r\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc0MzQ5NjM4NSwiZXhwIjoxNzQzNDk5OTg1fQ.n095zt-tA8rOPlR3MGd-9Bep9Z8Padw7C_lLYF7BlMU"
+            }
+        },
+        {
+            "_id": "a8724289-9bde-4b27-bd70-462773189d87",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Get all Users",
+            "url": "http://localhost:2663/users/all",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-04-01T09:02:20.287Z",
+            "modified": "2025-04-01T09:02:20.287Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc0MzQ5NjM4NSwiZXhwIjoxNzQzNDk5OTg1fQ.n095zt-tA8rOPlR3MGd-9Bep9Z8Padw7C_lLYF7BlMU"
+            }
+        },
+        {
+            "_id": "b9dd3c4f-88b5-4f47-b175-90238ee2f0f9",
+            "colId": "464e5579-c156-4177-a872-cf936f8d0377",
+            "containerId": "",
+            "name": "Get user by ID",
+            "url": "http://localhost:2663/users?id=2",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-04-01T09:03:00.102Z",
+            "modified": "2025-04-01T09:03:00.102Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc0MzQ5MzE1NywiZXhwIjoxNzQzNDk2NzU3fQ.MYlQvCigLb_kLTUEHFuSK8XdlAe3gz8uhwsSMm2DyC0",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTc0MzQ5NjM4NSwiZXhwIjoxNzQzNDk5OTg1fQ.n095zt-tA8rOPlR3MGd-9Bep9Z8Padw7C_lLYF7BlMU"
+            }
+        }
+    ],
+    "ref": "KwA2vsFrjLkbjvPYOE0z8S7c9qKYzt4WS314VrdpJ1kyMQvcssSINaDN29yLKhcNKeYBT3NPRM7vS5f8cppf_g"
+}
